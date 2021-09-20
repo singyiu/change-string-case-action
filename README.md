@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: string
-        uses: ASzc/change-string-case-action@v1
+        uses: singyiu/change-string-case-action@v1
         with:
           string: XyZzY
       - id: step2
